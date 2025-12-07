@@ -81,7 +81,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y             &kp U           &lt 5 I            &kp O    &mt DELETE P
-&mt INT2 A        &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp NUMBER_1   &kp H             &mt UP_ARROW T  &kp K              &kp L    &mt BACKSPACE H
+&mt INT2 E        &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp NUMBER_1   &kp H             &mt UP_ARROW T  &kp K              &kp L    &mt BACKSPACE H
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp NUMBER_2   &mt LEFT_ARROW G  &mt DOWN D      &mt RIGHT_ARROW M  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                                   &mkp MB1
             >;
@@ -89,7 +89,7 @@
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
+        No.FUNCTION {
             bindings = <
 &kp ASTERISK  &kp N7          &kp NUMBER_8     &kp NUMBER_9  &kp MINUS                           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
 &kp SLASH     &kp NUMBER_4    &kp N5           &kp NUMBER_6  &kp PLUS    &trans         &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
