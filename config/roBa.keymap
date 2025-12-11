@@ -91,10 +91,10 @@
 
         NUM1 {
             bindings = <
-&kp ASTERISK                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                 &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS   &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp EQUAL      &kp SLASH
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL                    &kp AT_SIGN     &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp QUESTION   &kp BACKSLASH
-&kp UP_ARROW                &kp LEFT_ARROW   &kp RIGHT_ARROW  &trans           &trans      &trans                       &trans          &trans                                                                       &kp PIPE
+&kp ASTERISK             &kp N7          &kp N8           &kp N9        &kp PLUS                                                 &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE
+&kp SLASH                &kp NUMBER_4    &kp N5           &kp NUMBER_6  &kp MINUS   &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp EQUAL      &kp SLASH
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3  &kp PERIOD  &kp EQUAL                    &kp AT_SIGN     &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp QUESTION   &kp BACKSLASH
+&kp UP_ARROW             &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans        &trans      &trans                       &trans          &trans                                                                       &kp PIPE
             >;
         };
 
