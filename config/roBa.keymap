@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q      &mt CAPSLOCK L  &mt F5 U      &kp COMMA    &kp PERIOD                                          &kp F             &kp W           &lt 4 R            &kp Y  &mt DELETE P
-&mt INT2 E        &kp I           &kp A         &kp O        &kp MINUS    &kp LS(LG(S))           &kp NUMBER_1   &kp K             &mt UP_ARROW T  &kp N              &kp S  &mt BACKSPACE H
-&mt LEFT_SHIFT Z  &mt LG(H) X     &mt LC(C) C   &mt LC(V) V  &kp SLASH    &kp TAB                 &kp NUMBER_2   &mt LEFT_ARROW G  &mt DOWN D      &mt RIGHT_ARROW M  &kp J  &kp B
-&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT  &lt 1 SPACE  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                                 &mkp MB1
+&mt ESCAPE Q      &mt CAPSLOCK L  &mt F5 U      &kp COMMA    &kp PERIOD                                               &kp F             &kp W           &lt 4 R            &kp Y            &mt DELETE P
+&mt INT2 E        &kp I           &kp A         &kp O        &kp MINUS              &kp LS(LG(S))      &kp NUMBER_1   &kp K             &mt UP_ARROW T  &kp N              &mt S LS(LG(S))  &mt BACKSPACE H
+&mt LEFT_SHIFT Z  &mt LG(H) X     &mt LC(C) C   &mt LC(V) V  &kp SLASH              &kp TAB            &kp NUMBER_2   &mt LEFT_ARROW G  &mt DOWN D      &mt RIGHT_ARROW M  &kp J            &kp B
+&kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT  &lt 1 SPACE  &lt 2 INTERNATIONAL_4  &lt 3 INT2         &kp BACKSPACE  &lt 1 ENTER                                                           &mkp MB1
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -94,16 +94,16 @@
 &kp ASTERISK                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                 &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS   &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp EQUAL      &kp SLASH
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL                    &kp AT_SIGN     &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp QUESTION   &kp BACKSLASH
-&trans                      &kp LEFT_ARROW   &kp RIGHT_ARROW  &trans           &trans      &trans                       &trans          &trans                                                                       &kp PIPE
+&kp UP_ARROW                &kp LEFT_ARROW   &kp RIGHT_ARROW  &trans           &trans      &trans                       &trans          &trans                                                                       &kp PIPE
             >;
         };
 
         No.FUNCTION2 {
             bindings = <
-&kp ASTERISK  &kp N7          &kp NUMBER_8     &kp NUMBER_9  &kp MINUS                           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp SLASH     &kp NUMBER_4    &kp N5           &kp NUMBER_6  &kp PLUS    &trans         &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp NUMBER_0  &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3  &kp PERIOD  &kp EQUAL      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans        &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans        &trans      &trans         &trans   &trans                          &kp F12
+&kp ASTERISK  &kp N7          &kp NUMBER_8     &kp NUMBER_9  &kp MINUS                                &kp F1        &kp F2        &kp F3  &kp F4        &kp F5
+&kp SLASH     &kp NUMBER_4    &kp N5           &kp NUMBER_6  &kp PLUS    &trans         &kp NUMBER_1  &kp F6        &kp F7        &kp F8  &kp F9        &kp F10
+&kp NUMBER_0  &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3  &kp PERIOD  &kp EQUAL      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp F11
+&kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans        &trans      &trans         &kp N0        &kp N0                                            &kp F12
             >;
         };
 
