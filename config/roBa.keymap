@@ -78,7 +78,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default_layer0 {
             bindings = <
 &mt ESCAPE Q      &mt CAPSLOCK L  &mt F5 U      &kp COMMA    &kp PERIOD                                               &kp F             &kp W           &lt 4 R            &kp Y            &mt DELETE P
 &mt INT2 E        &kp I           &kp A         &kp O        &kp MINUS              &kp LS(LG(S))      &kp NUMBER_1   &kp K             &mt UP_ARROW T  &kp N              &mt S LS(LG(S))  &mt BACKSPACE H
@@ -109,7 +109,7 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        ARROW {
+        ARROW3 {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -120,7 +120,7 @@
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
-        MOUSE {
+        MOUSE4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
